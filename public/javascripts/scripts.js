@@ -57,7 +57,7 @@ $(document).ready(function () {
     document.getElementById("result").innerHTML = result;
   };
 
-  mic.connect("HFDN7DHJXILN7VLNXHKWYJIDNKW7MWRS");
+  mic.connect("YOUR WIT CLIENT KEY");
 
   function sendRequest(url, data) {
     $.ajax({
